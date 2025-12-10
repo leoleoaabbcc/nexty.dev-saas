@@ -10,7 +10,6 @@
 
 import { getPublicPricingPlans } from "@/actions/prices/public";
 import { PricingCardDisplay } from "@/components/home/PricingCardDisplay";
-import FeatureBadge from "@/components/shared/FeatureBadge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { DEFAULT_LOCALE } from "@/i18n/routing";
 import { pricingPlans as pricingPlansSchema } from "@/lib/db/schema";
@@ -88,13 +87,12 @@ export default async function Pricing() {
   const renderPlans = (plans: PricingPlan[]) => {
     return (
       <div
-        className={`grid gap-8 justify-center items-start ${
-          plans.length === 1
+        className={`grid gap-8 justify-center items-start ${plans.length === 1
             ? "grid-cols-1 max-w-sm mx-auto"
             : plans.length === 2
               ? "grid-cols-1 md:grid-cols-2 max-w-3xl mx-auto"
               : "grid-cols-1 lg:grid-cols-3 max-w-7xl mx-auto"
-        }`}
+          }`}
       >
         {plans.map((plan) => {
           const localizedPlan =
@@ -103,8 +101,7 @@ export default async function Pricing() {
 
           if (!localizedPlan) {
             console.warn(
-              `Missing localization for locale '${
-                locale || DEFAULT_LOCALE
+              `Missing localization for locale '${locale || DEFAULT_LOCALE
               }' for plan ID ${plan.id}`
             );
             return null;
@@ -124,22 +121,8 @@ export default async function Pricing() {
   };
 
   return (
-    <section id="pricing" className="py-20">
+    <section id="pricing" className="py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <FeatureBadge
-            label={t("badge.label")}
-            text={t("badge.text")}
-            className="mb-8"
-          />
-          <h2 className="text-center z-10 text-lg md:text-5xl font-sans font-semibold mb-4">
-            <span className="title-gradient">{t("title")}</span>
-          </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            {t("description")}
-          </p>
-        </div>
-
         <Tabs defaultValue={getDefaultValue()} className="w-full mx-auto">
           <TabsList
             className={`grid w-fit mx-auto ${getGridColsClass(

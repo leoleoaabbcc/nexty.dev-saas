@@ -1,6 +1,6 @@
 import { SiteConfig } from "@/types/siteConfig";
 
-export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://nexty.dev";
+export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://bitsfactor.com";
 
 const GITHUB_URL = ''
 const TWITTER_URL = ''
@@ -11,7 +11,7 @@ const DISCORD_URL = process.env.NEXT_PUBLIC_DISCORD_INVITE_URL
 const EMAIL_URL = ''
 
 export const siteConfig: SiteConfig = {
-  name: "NEXTY.DEV",
+  name: "BitsFactor",
   url: BASE_URL,
   authors: [
     {
@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
   defaultNextTheme: 'light', // next-theme option: system | dark | light
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/logo.png",
-    apple: "/logo.png", // apple-touch-icon.png
+    shortcut: "/bitsfactor.svg",
+    apple: "/logo.png",
   },
 }

@@ -78,6 +78,7 @@ export async function constructMetadata({
     keywords: [],
     authors: siteConfig.authors,
     creator: siteConfig.creator,
+    icons: siteConfig.icons,
     metadataBase: new URL(siteConfig.url),
     alternates: {
       canonical: canonicalUrl ? `${siteConfig.url}${locale === DEFAULT_LOCALE ? '' : `/${locale}`}${canonicalUrl === '/' ? '' : canonicalUrl}` : undefined,

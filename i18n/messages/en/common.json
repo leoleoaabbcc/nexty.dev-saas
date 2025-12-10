@@ -152,9 +152,9 @@
     }
   },
   "Home": {
-    "title": "NEXTY.DEV",
-    "tagLine": "A Modern Next.js Full-Stack SaaS Template",
-    "description": "A production-ready Next.js and Supabase starter template for building modern SaaS applications. Launch your content, AI, or subscription service faster."
+    "title": "BitsFactor",
+    "tagLine": "Tools that help people work more efficiently",
+    "description": "BitsFactor builds practical tools that streamline workflows, reduce friction, and unlock productivity."
   },
   "Login": {
     "title": "Welcome back",

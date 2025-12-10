@@ -397,10 +397,10 @@
   "Pricing": {
     "badge": {
       "label": "PRICING",
-      "text": "One-Time Payment, Lifetime Updates"
+      "text": "Simple, transparent plans"
     },
-    "title": "Ship your SaaS in days, not months",
-    "description": "Using our battle-tested SaaS starter template, so you can skip boilerplate coding and focus on the features your users actually need.",
+    "title": "Pricing",
+    "description": "Straightforward pricing that scales with your needs.",
     "annual": "Annual",
     "monthly": "Monthly",
     "onetime": "One-Time",
