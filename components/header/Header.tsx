@@ -14,8 +14,8 @@ const Header = async () => {
     <header className="py-2 backdrop-blur-md sticky top-0 z-50">
       <nav className="flex justify-between items-center container max-w-8xl mx-auto">
         <div className="flex items-center space-x-6 md:space-x-12">
-          <I18nLink href="/" title="BitsFactor" prefetch={true} className="flex items-center space-x-2">
-            <Image src="/bitsfactor.svg" alt="BitsFactor" width={24} height={24} />
+          <I18nLink href="/" title="BitsFactor" prefetch={true} className="flex items-center space-x-3">
+            <Image src="/bitsfactor.svg" alt="BitsFactor" width={28} height={28} />
             <span className={cn("text-lg font-semibold highlight-text")}>BitsFactor</span>
           </I18nLink>
         </div>

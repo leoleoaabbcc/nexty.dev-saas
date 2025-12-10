@@ -1,7 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Link as I18nLink } from "@/i18n/routing";
 import { useEffect, useRef } from "react";
 
 export default function BFHero() {
@@ -113,11 +111,11 @@ export default function BFHero() {
   return (
     <div className="w-full">
       <div className="container mx-auto">
-        <div className="flex gap-6 py-16 lg:py-24 items-center justify-center flex-col">
+        <div className="flex gap-4 py-10 lg:py-14 items-center justify-center flex-col">
           <div ref={containerRef} className="relative w-full max-w-5xl">
             <div className="absolute inset-0 -z-10 blur-3xl bg-gradient-to-tr from-indigo-600/30 via-sky-500/20 to-cyan-500/30 rounded-3xl" />
             <div className="rounded-2xl border border-white/10 bg-neutral-900/85 backdrop-blur-md shadow-xl">
-              <canvas ref={canvasRef} className="w-full h-[300px] md:h-[420px]" />
+              <canvas ref={canvasRef} className="w-full h-[260px] md:h-[360px]" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="px-6 text-center max-w-3xl">
@@ -130,13 +128,7 @@ export default function BFHero() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row gap-2">
-            <Button asChild className="h-11 rounded-xl px-6 py-2">
-              <I18nLink href="#pricing" className="flex items-center gap-2">
-                View pricing
-              </I18nLink>
-            </Button>
-          </div>
+
         </div>
       </div>
     </div>

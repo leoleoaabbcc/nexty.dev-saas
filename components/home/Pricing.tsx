@@ -88,10 +88,10 @@ export default async function Pricing() {
     return (
       <div
         className={`grid gap-8 justify-center items-start ${plans.length === 1
-            ? "grid-cols-1 max-w-sm mx-auto"
-            : plans.length === 2
-              ? "grid-cols-1 md:grid-cols-2 max-w-3xl mx-auto"
-              : "grid-cols-1 lg:grid-cols-3 max-w-7xl mx-auto"
+          ? "grid-cols-1 max-w-sm mx-auto"
+          : plans.length === 2
+            ? "grid-cols-1 md:grid-cols-2 max-w-3xl mx-auto"
+            : "grid-cols-1 lg:grid-cols-3 max-w-7xl mx-auto"
           }`}
       >
         {plans.map((plan) => {
@@ -121,7 +121,7 @@ export default async function Pricing() {
   };
 
   return (
-    <section id="pricing" className="py-10">
+    <section id="pricing" className="py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Tabs defaultValue={getDefaultValue()} className="w-full mx-auto">
           <TabsList
