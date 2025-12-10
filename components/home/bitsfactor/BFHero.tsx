@@ -111,11 +111,11 @@ export default function BFHero() {
   return (
     <div className="w-full">
       <div className="w-full">
-        <div className="flex gap-3 pt-10 lg:pt-12 pb-0 items-center justify-center flex-col">
+        <div className="flex gap-2 pt-0 lg:pt-0 pb-0 items-center justify-center flex-col">
           <div ref={containerRef} className="relative w-full max-w-none mx-[10px]">
             <div className="absolute inset-0 -z-10 blur-3xl bg-gradient-to-tr from-indigo-600/30 via-sky-500/20 to-cyan-500/30 rounded-3xl" />
-            <div className="rounded-2xl border border-white/10 bg-neutral-900/85 backdrop-blur-md shadow-xl">
-              <canvas ref={canvasRef} className="w-full h-[260px] md:h-[360px]" />
+            <div className="rounded-2xl overflow-hidden border border-white/10 bg-neutral-900/85 backdrop-blur-md shadow-xl">
+              <canvas ref={canvasRef} className="block w-full h-[260px] md:h-[360px]" />
             </div>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="px-6 text-center max-w-3xl">
