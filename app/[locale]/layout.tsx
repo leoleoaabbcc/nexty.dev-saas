@@ -1,3 +1,4 @@
+import { AuthTokenSync } from "@/components/auth/AuthTokenSync";
 import { GoogleOneTap } from "@/components/auth/GoogleOneTap";
 import { LanguageDetectionAlert } from "@/components/LanguageDetectionAlert";
 import ConsentBanner from "@/components/shared/CookieConsent/ConsentBanner";
@@ -96,6 +97,7 @@ export default async function LocaleLayout({
           </ThemeProvider>
         </NextIntlClientProvider>
         <GoogleOneTap />
+        <AuthTokenSync />
         <Toaster richColors />
         <TailwindIndicator />
         <>
