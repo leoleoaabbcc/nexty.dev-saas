@@ -1,3 +1,5 @@
+import HeaderLinks from "@/components/header/HeaderLinks";
+import MobileMenu from "@/components/header/MobileMenu";
 import { UserAvatar } from "@/components/header/UserAvatar";
 import { Link as I18nLink } from "@/i18n/routing";
 import { getSession } from "@/lib/auth/server";
@@ -18,10 +20,14 @@ const Header = async () => {
             <Image src="/bitsfactor.svg" alt="BitsFactor" width={28} height={28} />
             <span className={cn("text-lg font-semibold highlight-text")}>BitsFactor</span>
           </I18nLink>
+          <HeaderLinks />
         </div>
 
         <div className="flex items-center gap-x-2 flex-1 justify-end">
           <div className="flex items-center gap-x-2">
+            <div className="lg:hidden">
+              <MobileMenu />
+            </div>
             <UserAvatar user={user as User} />
           </div>
         </div>
