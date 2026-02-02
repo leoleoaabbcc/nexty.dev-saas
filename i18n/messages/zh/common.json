@@ -8,6 +8,21 @@
   "Header": {
     "links": [
       {
+        "id": "products",
+        "name": "产品",
+        "href": "#",
+        "items": [
+          {
+            "id": "clipboard-share",
+            "name": "ClipboardShare",
+            "description": "云端剪贴板，跨设备安全共享",
+            "href": "https://clipboard.bitsfactor.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      {
         "name": "功能特性",
         "href": "/#features"
       },
@@ -121,6 +136,13 @@
     "tagLine": "多场景 Next.js 全栈 SaaS 开发模板",
     "description": "Nexty 是一个功能齐全的 Next.js SaaS 全栈模板，让你能够快速构建各种商业网站，无论是内容站、工具站还是集成 AI 能力的付费网站。"
   },
+  "Products": {
+    "title": "产品",
+    "ClipboardShare": {
+      "name": "ClipboardShare",
+      "description": "云端剪贴板，跨设备安全共享"
+    }
+  },
   "Login": {
     "title": "欢迎回来",
     "description": "你可以通过以下方式登录",
@@ -150,6 +172,15 @@
       "signIn": "登录",
       "signOut": "退出"
     },
+    "ProductMenus": [
+      {
+        "id": "clipboard-share",
+        "name": "ClipboardShare",
+        "href": "https://clipboard.bitsfactor.com/",
+        "icon": "Clipboard",
+        "target": "_blank"
+      }
+    ],
     "UserMenus": [
       {
         "name": "个人设置",

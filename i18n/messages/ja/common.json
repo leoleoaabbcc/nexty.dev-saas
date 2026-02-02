@@ -8,6 +8,21 @@
   "Header": {
     "links": [
       {
+        "id": "products",
+        "name": "製品",
+        "href": "#",
+        "items": [
+          {
+            "id": "clipboard-share",
+            "name": "ClipboardShare",
+            "description": "クラウドクリップボード、デバイス間で安全に共有",
+            "href": "https://clipboard.bitsfactor.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      {
         "name": "機能特性",
         "href": "/#features"
       },
@@ -121,6 +136,13 @@
     "tagLine": "最新の Next.js フルスタック SaaS テンプレート",
     "description": "Next.js と Supabase を活用した本格的な SaaS 開発キット。コンテンツ配信、AI ツール、サブスクリプションサービスを迅速に構築できます。"
   },
+  "Products": {
+    "title": "製品",
+    "ClipboardShare": {
+      "name": "ClipboardShare",
+      "description": "クラウドクリップボード、デバイス間で安全に共有"
+    }
+  },
   "Login": {
     "title": "おかえりなさい",
     "description": "以下の方法でログインしていただけます",
@@ -150,6 +172,15 @@
       "signIn": "ログイン",
       "signOut": "ログアウト"
     },
+    "ProductMenus": [
+      {
+        "id": "clipboard-share",
+        "name": "ClipboardShare",
+        "href": "https://clipboard.bitsfactor.com/",
+        "icon": "Clipboard",
+        "target": "_blank"
+      }
+    ],
     "UserMenus": [
       {
         "name": "設定",

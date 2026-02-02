@@ -8,6 +8,21 @@
   "Header": {
     "links": [
       {
+        "id": "products",
+        "name": "Products",
+        "href": "#",
+        "items": [
+          {
+            "id": "clipboard-share",
+            "name": "ClipboardShare",
+            "description": "Cloud clipboard for secure cross-device sharing",
+            "href": "https://clipboard.bitsfactor.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ]
+      },
+      {
         "name": "Features",
         "href": "/#features"
       },
@@ -121,6 +136,13 @@
     "tagLine": "Tools that help people work more efficiently",
     "description": "BitsFactor builds practical tools that streamline workflows, reduce friction, and unlock productivity."
   },
+  "Products": {
+    "title": "Products",
+    "ClipboardShare": {
+      "name": "ClipboardShare",
+      "description": "Cloud clipboard for secure cross-device sharing"
+    }
+  },
   "Login": {
     "title": "Welcome back",
     "description": "Sign in with the following methods",
@@ -150,6 +172,15 @@
       "signIn": "Sign In",
       "signOut": "Sign Out"
     },
+    "ProductMenus": [
+      {
+        "id": "clipboard-share",
+        "name": "ClipboardShare",
+        "href": "https://clipboard.bitsfactor.com/",
+        "icon": "Clipboard",
+        "target": "_blank"
+      }
+    ],
     "UserMenus": [
       {
         "name": "Settings",

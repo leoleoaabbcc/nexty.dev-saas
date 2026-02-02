@@ -56,7 +56,7 @@ export default function BFProducts() {
             name="ClipboardShare Pro Subscription"
             description="Use the cloud clipboard across 3+ devices with encrypted content for secure, seamless sharing."
             priceText="$3/month"
-            primaryCta={{ label: "Visit ClipboardShare.com", href: "https://clipboardshare.com", external: true }}
+            primaryCta={{ label: "Visit ClipboardShare", href: "https://clipboard.bitsfactor.com/", external: true }}
           />
         </div>
       </div>

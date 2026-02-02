@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/sidebar";
 import { Link as I18nLink, usePathname } from "@/i18n/routing";
 import { authClient } from "@/lib/auth/auth-client";
+import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -32,7 +33,9 @@ export function DashboardSidebar() {
   const pathname = usePathname();
   const t = useTranslations("Login");
   const tHome = useTranslations("Home");
+  const tProducts = useTranslations("Products");
 
+  const productMenus: Menu[] = t.raw("ProductMenus");
   const userMenus: Menu[] = t.raw("UserMenus");
   const adminMenus: Menu[] = t.raw("AdminMenus");
 
@@ -63,6 +66,32 @@ export function DashboardSidebar() {
       </SidebarHeader>
 
       <SidebarContent>
+        <SidebarGroup>
+          <SidebarGroupLabel>{tProducts("title")}</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {productMenus.map((menu) => (
+                <SidebarMenuItem key={menu.href}>
+                  <SidebarMenuButton asChild>
+                    <a
+                      href={menu.href}
+                      title={menu.name}
+                      target={menu.target || "_blank"}
+                      rel="noopener noreferrer"
+                    >
+                      <DynamicIcon name={menu.icon} className="h-4 w-4" />
+                      {!isCollapsed && <span>{menu.name}</span>}
+                      {!isCollapsed && <ExternalLink className="h-3 w-3 ml-auto opacity-50" />}
+                    </a>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarSeparator />
+
         <SidebarGroup>
           <SidebarGroupContent>
             <SidebarMenu>
