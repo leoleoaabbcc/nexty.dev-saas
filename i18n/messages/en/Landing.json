@@ -405,5 +405,20 @@
     "monthly": "Monthly",
     "onetime": "One-Time",
     "saveTip": "Save 20%"
+  },
+  "Products": {
+    "badge": { "label": "PRODUCTS", "text": "Practical tools for real scenarios" },
+    "title": "Our Products",
+    "description": "Simple, secure and reliable tools to help you get work done faster.",
+    "aiGateway": {
+      "name": "AI Gateway",
+      "description": "Unified LLM gateway — powering your AI with compute support.",
+      "cta": "Learn More"
+    },
+    "clipboardShare": {
+      "name": "ClipboardShare",
+      "description": "Cloud clipboard. Just one URL to share content across devices.",
+      "cta": "Try It Now"
+    }
   }
 }

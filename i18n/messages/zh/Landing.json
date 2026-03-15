@@ -405,5 +405,20 @@
     "monthly": "月付",
     "onetime": "一次性",
     "saveTip": "节省 20%"
+  },
+  "Products": {
+    "badge": { "label": "产品", "text": "实用的效率工具" },
+    "title": "我们的产品",
+    "description": "简单、安全、可靠的工具，帮助你更高效地完成工作。",
+    "aiGateway": {
+      "name": "大模型统一网关",
+      "description": "为你的AI提供算力支持。",
+      "cta": "了解更多"
+    },
+    "clipboardShare": {
+      "name": "云剪贴板",
+      "description": "只需要一个url, 多台设备间共享内容。",
+      "cta": "立即使用"
+    }
   }
 }

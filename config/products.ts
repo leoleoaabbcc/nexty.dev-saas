@@ -17,11 +17,17 @@ export type Product = {
 
 export const products: Product[] = [
   {
+    id: "ai-gateway",
+    name: "AI Gateway",
+    href: "https://api.develop.cc/static/api.html",
+    icon: "Brain",
+    external: true,
+  },
+  {
     id: "clipboard-share",
     name: "ClipboardShare",
-    href: "https://clipboard.bitsfactor.com/",
+    href: "https://www.clipboardshare.com/",
     icon: "Clipboard",
     external: true,
   },
-  // 未来添加更多产品...
 ];

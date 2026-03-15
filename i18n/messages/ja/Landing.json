@@ -405,5 +405,20 @@
     "monthly": "月額",
     "onetime": "一回限り",
     "saveTip": "20% 節約"
+  },
+  "Products": {
+    "badge": { "label": "製品", "text": "実用的な効率化ツール" },
+    "title": "製品一覧",
+    "description": "シンプルで安全、信頼性の高いツールで、より効率的に作業を完了。",
+    "aiGateway": {
+      "name": "AI統合ゲートウェイ",
+      "description": "AIに計算リソースを提供する統合LLMゲートウェイ。",
+      "cta": "詳しく見る"
+    },
+    "clipboardShare": {
+      "name": "クラウドクリップボード",
+      "description": "URLひとつで、複数デバイス間でコンテンツを共有。",
+      "cta": "今すぐ試す"
+    }
   }
 }

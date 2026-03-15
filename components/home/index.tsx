@@ -1,15 +1,11 @@
 import BFHero from "@/components/home/bitsfactor/BFHero";
-import Pricing from "@/components/home/PricingAll";
-import { getMessages } from "next-intl/server";
+import BFProducts from "@/components/home/bitsfactor/BFProducts";
 
-export default async function HomeComponent() {
-  const messages = await getMessages();
-
+export default function HomeComponent() {
   return (
     <div className="w-full">
       <BFHero />
-
-      <Pricing />
+      <BFProducts />
     </div>
   );
 }
