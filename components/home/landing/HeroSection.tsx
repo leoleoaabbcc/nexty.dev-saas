@@ -20,7 +20,7 @@ const particles = [
 ];
 
 export default function HeroSection() {
-  const t = useTranslations("common.Home");
+  const t = useTranslations("Home");
 
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-end overflow-hidden pb-20">
