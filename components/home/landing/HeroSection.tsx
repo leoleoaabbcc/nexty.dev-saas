@@ -99,7 +99,7 @@ export default function HeroSection() {
   const t = useTranslations("Home");
 
   return (
-    <section className="relative flex min-h-[60vh] flex-col items-center justify-center px-4 pt-8 pb-16 sm:min-h-[50vh]">
+    <section className="relative flex flex-col items-center justify-center px-4 pt-24 pb-12 sm:pt-32 sm:pb-16">
       {/* Text */}
       <div className="relative z-10 mx-auto max-w-4xl text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
