@@ -174,7 +174,7 @@ export default async function ProductsSection() {
             description={t("aiGateway.description")}
             cta={{
               label: t("aiGateway.cta"),
-              href: "https://api.develop.cc/static/api.html",
+              href: "https://api.develop.cc",
             }}
           />
           <ProductCard
