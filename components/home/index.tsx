@@ -1,4 +1,5 @@
-import HeroSection from "./landing/HeroSection";
+import HeroSection, { AmbientBackground } from "./landing/HeroSection";
+import LandingHeader from "./landing/LandingHeader";
 import ProductsSection from "./landing/ProductsSection";
 import Link from "next/link";
 
@@ -8,7 +9,16 @@ export default function HomeComponent() {
       className="dark relative w-full overflow-hidden"
       style={{ background: "#060B18" }}
     >
+      {/* Full-page ambient animation background */}
+      <AmbientBackground />
+
+      {/* Header */}
+      <LandingHeader />
+
+      {/* Hero */}
       <HeroSection />
+
+      {/* Products */}
       <ProductsSection />
 
       {/* Footer */}

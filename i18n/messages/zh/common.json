@@ -134,7 +134,8 @@
   "Home": {
     "title": "BitsFactor",
     "tagLine": "AI 赋能，加速生产力",
-    "description": "为开发者、内容创作者和企业打造智能效率工具。"
+    "description": "为开发者、内容创作者和企业打造智能效率工具。",
+    "productsNav": "产品"
   },
   "Products": {
     "title": "产品",

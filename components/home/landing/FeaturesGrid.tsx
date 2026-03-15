@@ -1,5 +1,6 @@
 "use client";
 
+import SectionHeader from "./SectionHeader";
 import {
   BarChart3,
   Cloud,
@@ -66,23 +67,13 @@ export default function FeaturesGrid() {
       />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Section header */}
-        <div className="mb-16 text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
-            <span className="rounded-full bg-indigo-500/20 px-2 py-0.5 text-xs font-semibold tracking-wide text-indigo-300">
-              {t("badge.label")}
-            </span>
-            <span className="text-xs text-slate-400">{t("badge.text")}</span>
-          </div>
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            <span className="bg-gradient-to-b from-white to-slate-400 bg-clip-text text-transparent">
-              {t("title")}
-            </span>
-          </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-400">
-            {t("description")}
-          </p>
-        </div>
+        <SectionHeader
+          badgeLabel={t("badge.label")}
+          badgeText={t("badge.text")}
+          title={t("title")}
+          description={t("description")}
+          className="mb-16"
+        />
 
         {/* Bento grid */}
         <div
@@ -95,7 +86,7 @@ export default function FeaturesGrid() {
 
             return (
               <div
-                key={feature.title}
+                key={index}
                 data-feature-card
                 className={`group relative cursor-default overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6 transition-all duration-300 hover:border-white/[0.12] hover:bg-white/[0.04] ${
                   isWide ? "lg:col-span-2" : ""

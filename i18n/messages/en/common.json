@@ -134,7 +134,8 @@
   "Home": {
     "title": "BitsFactor",
     "tagLine": "Accelerate Productivity with AI",
-    "description": "Building intelligent tools for developers, content creators, and enterprises."
+    "description": "Building intelligent tools for developers, content creators, and enterprises.",
+    "productsNav": "Products"
   },
   "Products": {
     "title": "Products",

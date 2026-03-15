@@ -134,7 +134,8 @@
   "Home": {
     "title": "BitsFactor",
     "tagLine": "AIで生産性を加速する",
-    "description": "開発者、コンテンツクリエイター、企業向けのインテリジェントツールを構築。"
+    "description": "開発者、コンテンツクリエイター、企業向けのインテリジェントツールを構築。",
+    "productsNav": "製品"
   },
   "Products": {
     "title": "製品",
