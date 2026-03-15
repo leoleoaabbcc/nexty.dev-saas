@@ -17,7 +17,7 @@ export default function FAQ() {
   const faqs: FAQItem[] = t.raw("items");
 
   return (
-    <section id="testimonials" className="py-20">
+    <section id="faq" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-center z-10 text-lg md:text-5xl font-sans font-semibold mb-4">

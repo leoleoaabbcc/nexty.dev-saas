@@ -132,9 +132,9 @@
     }
   },
   "Home": {
-    "title": "NEXTY.DEV",
-    "tagLine": "多场景 Next.js 全栈 SaaS 开发模板",
-    "description": "Nexty 是一个功能齐全的 Next.js SaaS 全栈模板，让你能够快速构建各种商业网站，无论是内容站、工具站还是集成 AI 能力的付费网站。"
+    "title": "BitsFactor",
+    "tagLine": "帮助人们更高效地工作",
+    "description": "BitsFactor 打造实用工具，简化工作流程、减少摩擦、释放生产力。"
   },
   "Products": {
     "title": "产品",
